@@ -1,9 +1,18 @@
 .header {
-    background-color: aliceblue;
-    height: 150px;
+    
+    background-image: url("assets/header.png");    
+    height: 350px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
 }
 
 .project{
     height: 150px;
   
+}
+
+.header-text{
+    text-align: center;
+    color: #ffffff;
 }
