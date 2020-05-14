@@ -96,3 +96,27 @@
     text-align: center;
     color: #ffffff;
 }
+
+.bottom-footer{    
+        position: fixed; 
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 30px;    
+        background: #C0C0C0;
+        border-top: 2px solid white;
+        border-left: 2px solid #393939;
+        border-right: 2px solid;
+        border-bottom: 2px solid #393939;
+}
+
+.start-button{
+    width: 70px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid #393939;
+    border-bottom: 2px solid #393939;
+    height:25px;
+    margin-left: 1px;
+    margin-top: 1px;
+}
