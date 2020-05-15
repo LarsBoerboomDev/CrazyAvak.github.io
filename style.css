@@ -1,3 +1,7 @@
+body{
+    background-color: #008081;
+}
+
 .windows-header{
     border-top: 2px solid white;
     border-left: 2px solid white;
@@ -22,7 +26,7 @@
 }
 
 .windows-header-title{
-    width: 50px;
+    
     margin-left: 20px;
     float: left;
 }
@@ -96,10 +100,42 @@
 }
 
 .project{
-    height: 150px;
+    
     width: 100%; 
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid #393939;    
+    border-bottom: 2px solid #393939;    
+    
 }
 
+.project-header{    
+    border-radius: 0;
+    height: 30px;
+    background: #C0C0C0;
+}
+
+.project-header-body{
+    background: #000181;
+    color: white;
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    height: 23px;
+    width: 99.8%;
+    margin-top: 1px;
+}
+.project-header-title{
+    float: left;
+    margin-left: 5px;
+    margin-top: -2px;
+}
+
+.project-body{    
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    border-left: 3px solid #393939;    
+    border-top: 3px solid #393939;    
+    background:white;
+}
 .header-text{
     
     color: #ffffff;
