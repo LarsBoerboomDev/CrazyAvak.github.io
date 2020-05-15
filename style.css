@@ -119,4 +119,16 @@
     height:25px;
     margin-left: 1px;
     margin-top: 1px;
+    color: black;
+}
+
+.start-button-text{
+   
+}
+
+.windows-button-image{
+    width: 20px;
+    height: auto;    
+   margin-top: -5px;
+   
 }
