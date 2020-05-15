@@ -87,14 +87,28 @@
     background-size: cover;
 }
 
+.header-body{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .project{
     height: 150px;
     width: 100%; 
 }
 
 .header-text{
-    text-align: center;
+    
     color: #ffffff;
+}
+.header-image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 5px;
 }
 
 .bottom-footer{    
@@ -118,17 +132,35 @@
     border-bottom: 2px solid #393939;
     height:25px;
     margin-left: 1px;
+    float: left;
     margin-top: 1px;
     color: black;
 }
+.footer-clock{
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid #393939;
+    border-top: 1px solid #393939;
+    height:24px;
+    margin-top: 1px;
+    width: 75px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
 .start-button-text{
-   
+ float: right;  
+ margin-top: -2px;
+ margin-right: 5px;
 }
 
 .windows-button-image{
     width: 20px;
     height: auto;    
-   margin-top: -5px;
+    margin-left: 4px;
+   margin-top: -7px;
    
 }
