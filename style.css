@@ -224,3 +224,19 @@ body{
    margin-top: -7px;
    
 }
+
+.notepad-text-body{
+    background: #C0C0C0;
+    height: auto;
+    width: auto;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    border-left: 3px solid #393939;    
+    
+}
+
+.notepad-text-body-cv{
+    background-color: white;
+    
+    margin: 5px;
+}
